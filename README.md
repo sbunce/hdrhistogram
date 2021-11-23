@@ -1,8 +1,6 @@
 hdrhistogram
 ============
 
-[![Build Status](https://travis-ci.org/codahale/hdrhistogram.png?branch=master)](https://travis-ci.org/codahale/hdrhistogram)
-
 A pure Go implementation of the [HDR Histogram](https://github.com/HdrHistogram/HdrHistogram).
 
 > A Histogram that supports recording and analyzing sampled data value counts
@@ -12,4 +10,10 @@ A pure Go implementation of the [HDR Histogram](https://github.com/HdrHistogram/
 > behavior across the value range and the subsequent value resolution at any
 > given level.
 
-For documentation, check [godoc](http://godoc.org/github.com/codahale/hdrhistogram).
+For documentation, check [godoc](https://pkg.go.dev/github.com/sbunce/hdrhistogram).
+
+fork
+====
+This is a fork of the original repo, before new dependencies were added. The
+goal of this fork is to not depend on anything outside the standard library.
+
